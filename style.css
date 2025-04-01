@@ -48,7 +48,7 @@
     text-shadow: 1px 1px 2px #ff69b4; 
   }
   
-  /* Nội dung chính */
+
   .content {
     display: flex;
     flex-wrap: wrap;
