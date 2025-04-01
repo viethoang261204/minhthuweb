@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #ffb6c1, #ffc0cb); 
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header */
+  .header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e2e2e2;
+  }
+  
+  .header img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #ff69b4; 
+  }
+  
+  .header h1 {
+    margin: 20px 0 10px;
+    font-size: 2.5rem;
+    color: #333;
+    text-shadow: 2px 2px 4px #ff69b4; 
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+    color: #555;
+    text-shadow: 1px 1px 2px #ff69b4; 
+  }
+  
+  /* Nội dung chính */
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .content .section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .section h2 {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    padding-left: 10px;
+    text-shadow: 1px 1px 2px #ff69b4; 
+  }
+  
+  .section p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .hobbies {
+    list-style: none;
+    margin-top: 10px;
+  }
+  
+  .hobbies li {
+    background: #ffe6f2;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .gallery-container img {
+    width: calc(50% - 10px);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    object-fit: cover;
+  }
+  
+
+  .footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #e2e2e2;
+  }
+  
+  .footer h2 {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    padding-left: 10px;
+    text-shadow: 1px 1px 2px #ff69b4;
+  }
+  
+  .social-media a {
+    text-decoration: none;
+    color: #ff69b4;
+    font-size: 1.8rem;
+    margin: 0 10px;
+    transition: color 0.3s;
+  }
+  
+  .social-media a:hover {
+    color: #d63384;
+  }
+  
+  @media (max-width: 768px) {
+    .content {
+      flex-direction: column;
+    }
+    
+    .gallery-container img {
+      width: 100%;
+    }
+  }
+  
